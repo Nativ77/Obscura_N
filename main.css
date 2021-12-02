@@ -303,3 +303,46 @@ button{
 .plan__item-button{
     text-align: right;
 }
+
+.form{
+    background-color: #1a1a1a;
+}
+
+.form .container{
+    padding: 120px 160px;
+}
+
+.form__content{
+    background-color: #000000;
+    padding: 51px 0 62px;
+    text-align: center;
+}
+
+.form__title{
+    font-family: Montserrat;
+    font-size: 48px;
+    margin-bottom: 30px;   
+}
+
+.form__text{
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    max-width: 644px;
+}
+.form__block{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 543px;
+}
+
+.form__input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    margin-bottom: 30px;
+
+}
