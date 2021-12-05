@@ -29,6 +29,7 @@ button{
     border: none;
     background-color: transparent;
     color: #fff;
+    cursor: pointer;
 }
 
 .container{
@@ -172,7 +173,7 @@ button{
     align-items: center;
 }
 
-.portfolio__pretitle{
+.portfolio__subtitle{
     font-size: 18px;
     letter-spacing: 10px;
     text-transform: uppercase;
@@ -197,13 +198,14 @@ button{
 .portfolio__card{
     margin-bottom: 86px;
 }
-.container__next-prev{
+.portfolio__button{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-bottom: 88px; 
-
 }
+
+
 
 .statistics{
    background: url('./img/stat_bg.png') center center no-repeat;
@@ -343,6 +345,101 @@ button{
     border: none;
     border-bottom: 1px solid #fff;
     outline: none;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    padding-left: 15px;
     margin-bottom: 30px;
+    
+}
+
+.form__button{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 9px 13px;
+    align-self: flex-end;
+}
+
+.gallery{
+    background-color: #000000;
+}
+
+.gallery__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery__item{
+    width: 360px;
+    height: 360px;
+    transition: opacity .4s;
+}
+
+.gallery__item:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+.footer{
+    background-color: #000000;
+    padding: 79px 0 81px;
 
 }
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__menu{
+    margin-bottom: 31px;
+}
+
+.footer__socials{
+    margin-bottom: 30px;
+}
+
+.footer__copyright{
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1.18182px;
+    text-transform: uppercase;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu__item{
+    margin-right: 31px;
+}
+
+.menu__item:last-child{
+    margin-right: 0;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.socials__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials___item{
+    margin-right: 30px;
+}
+
+.socials__item:last-child{
+    margin-right: 0;
+}
+
