@@ -52,7 +52,20 @@ button{
     background-color:#fff;
     margin-right: 30px;
     vertical-align: middle;
+}
 
+.button--rotate:before{
+    display: none;
+}
+
+.button--rotate:after{
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 65px;
+    background-color:#fff;
+    margin-left: 30px;
+    vertical-align: middle;
 }
 
 .preview{
@@ -142,6 +155,11 @@ button{
     overflow: hidden;    
 }
 
+.avatar--60{
+    height: 60px;
+    width: 60px;
+}
+
 .avatar__icon{
     height: 100%;
     width: 100%;
@@ -163,14 +181,12 @@ button{
 }
 
 .portfolio{
-    background: #000000;
-    padding-top: 120px;
+    background: #1a1a1a;
+    padding: 120px 0 80px;
 }
 
 .portfolio__content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .portfolio__subtitle{
@@ -191,21 +207,92 @@ button{
     font-size: 15px;
     line-height: 24px;
     text-align: center;
-    margin-bottom: 109px;
+    margin: 0 auto;
+    margin-bottom: 101px;
     max-width: 620px;
+
 }
 
-.portfolio__card{
+.portfolio__list{
     margin-bottom: 86px;
 }
-.portfolio__button{
+
+.portfolio__buttons{
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
-    margin-bottom: 88px; 
 }
 
+.feedback{
+    background-color: #1a1a1a;
+    padding: 35px 0 48px;
+}
 
+.feedback__content{
+    text-align: center;
+    margin-bottom: 109px;
+}
+
+.feedback__subtitle{
+    font-size: 18px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.feedback__title{
+    font-family: Montserrat;
+    font-size: 48px;
+    line-height: 56px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.feedback__list{
+    margin-bottom: 49px;
+    display: flex;
+}
+
+.feedback__item{
+    background-color: #000000;
+    max-width: 353px;
+    padding: 30px 26px 26px;
+    margin-right: 27px;
+}
+
+.feedback__item:last-child{
+    margin-right: 0;
+}
+
+.feedback__text{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.feedback__user{
+    display: flex;
+}
+
+.feedback__user-avatar{
+    margin-right: 10px;
+}
+
+.feedback__user-name{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.feedback__user-position{
+    font-size: 13px;
+}
+
+.feedback__buttons{
+    display: flex;
+    justify-content: space-between;
+}
 
 .statistics{
    background: url('./img/stat_bg.png') center center no-repeat;
