@@ -42,6 +42,8 @@ button{
     line-height: 16px;
     letter-spacing: 7px;
     text-transform: uppercase;
+   /* display: flex;
+    align-items: flex-start;*/
 }
 
 .button:before{
@@ -65,7 +67,7 @@ button{
     width: 65px;
     background-color:#fff;
     margin-left: 30px;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .preview{
@@ -486,6 +488,7 @@ button{
 .feedback__list{
     margin-bottom: 49px;
     display: flex;
+    align-items:flex-start
 }
 
 .feedback__item{
@@ -528,4 +531,4 @@ button{
 .feedback__buttons{
     display: flex;
     justify-content: space-between;
-} 
+}
